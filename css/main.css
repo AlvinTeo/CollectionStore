@@ -1,0 +1,514 @@
+#title {
+    font-size: 50px;
+    font-family: 'Tillana', cursive;
+    /*font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Satisfy', cursive;*/
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.wide {
+    width:100%;
+    height:100%;
+    height:calc(100% - 1px);
+    background-size:cover;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black; /* Changes regular toggle color */
+}
+
+.navbar-toggle .icon-bar:hover {
+    background-color: #fff; /* Changes toggle color on hover */
+}
+
+.page-scroll {
+    color: black;
+}
+
+.page-scroll:hover {
+    color: black;
+}
+
+#bannerimg {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    box-shadow:10px 10px 20px black;
+}
+
+#buttoninside {
+    position: absolute;
+    bottom: 3%;
+    left: 22%;
+}
+
+.mySlides {
+    display:none;
+}
+
+header {
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
+
+.styleme {
+    font-family: 'Tillana', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kaushan Script', cursive;
+    width: 300px;
+    background-color: whitesmoke;
+    border-width: 2px;
+    border-color: black;
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: .8s;
+    border-radius: 20px;
+}
+
+.styleme:hover
+{
+    background-color: black;
+    color: whitesmoke;
+    transition: .8s;
+}
+
+#putmen {
+    display: inline-block;
+    position: relative;
+}
+
+.img-fluid {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#menmen:hover {
+    opacity: .8;
+}
+
+#womenwomen:hover {
+    opacity: .8;
+}
+
+#putwomen {
+    display: inline-block;
+    position: relative;
+}
+
+.styleme2
+{
+    font-family: 'Tillana', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Satisfy', cursive;
+    position: absolute;
+    bottom: 5%;
+    right: 20%;
+    width: 300px;
+    background-color: whitesmoke;
+    border-width: 1px;
+    border-color: black;
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: .8s;
+    border-radius: 5px;
+}
+
+.styleme2:hover
+{
+    background-color: black;
+    color: whitesmoke;
+    border-color: white;
+    transition: .8s;
+}
+
+#allright {
+    font-size: 10px;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+.stayconnected {
+    border-radius: 30%;
+    transition:0.3s;
+}
+
+.stayconnected:hover {
+    transform: rotate(20deg);
+    transition:0.3s;
+}
+
+/*login css*/
+fieldset {
+    border: none;
+}
+
+#messageDisplay {
+    background-color: #ff4d4d;
+    color:white;
+    width: 370px;
+    border-radius: 20px;
+}
+
+.login {
+    position: absolute;
+    width: 350px;
+    display: none;
+    margin-left: -290px;
+    z-index: 2;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid #ECF0F1;
+    right: 3%;
+    position: absolute;
+    top: -10px;
+}
+
+.formholder {
+    background: #ecf0f1;
+    width: 350px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.formholder input[type="email"], .formholder input[type="password"] {
+    padding: 7px 5px;
+    margin: 10px 0;
+    width: 96%;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.formholder input[type="email"]:focus, .formholder input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #1abc9c;
+}
+.formholder input[type="submit"] {
+    background: #1abc9c;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.formholder input[type="submit"]:hover {
+    background: #1bc6a4;
+}
+
+.formholder input[type="button"] {
+    background: white;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: 1px;
+    border-color: black;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.formholder input[type="button"]:hover {
+    background: black;
+    border-color: white;
+    color: white;
+}
+
+.randompad {
+    padding: 10px;
+}
+
+.green {
+    color: #1abc9c;
+}
+
+a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+a:hover {
+    color: #1abc9c;
+}
+
+#regbutton {
+    text-decoration: none;
+}
+/*
+//////*/
+#about {
+    margin-top: 30px;
+    background-color: #e6e6e6;
+}
+
+section {
+    padding: 100px 0;
+}
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;    
+}
+.sh {
+    font-family: 'Tillana', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+section h3.section-subheading {
+    font-size: 16px;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+.ssh {
+    font-family: 'Tillana', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Satisfy', cursive;
+}
+.tm {  
+    font-family: 'Kaushan Script', cursive;
+}
+#bepartofus {
+    font-family: 'Tillana', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Satisfy', cursive;
+}
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 2px;
+    background-color: #f1f1f1;
+    left: 40px;
+    margin-left: -1.5px;
+}
+.timeline > li {
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 50px;
+}
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline > li .timeline-panel {
+    width: 100%;
+    float: right;
+    padding: 0 20px 0 100px;
+    position: relative;
+    text-align: left;
+}
+.timeline > li .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+.timeline > li .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+.timeline > li .timeline-image {
+    left: 0;
+    margin-left: 0;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    border: 7px solid #f1f1f1;
+    text-align: center;
+}
+.timeline > li .timeline-image h4 {
+    font-size: 10px;
+    margin-top: 12px;
+    line-height: 14px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 20px 0 100px;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+.timeline > li:last-child {
+    margin-bottom: 0;
+}
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+.timeline .timeline-heading h4.subheading {
+    text-transform: none;
+    font-family: 'Tillana', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Satisfy', cursive;
+}
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .timeline:before {
+        left: 50%;
+    }
+    .timeline > li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+    .timeline > li .timeline-panel {
+        width: 41%;
+        float: left;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+    .timeline > li .timeline-image {
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        margin-left: -50px;
+    }
+    .timeline > li .timeline-image h4 {
+        font-size: 13px;
+        margin-top: 16px;
+        line-height: 18px;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel {
+        float: right;
+        text-align: left;
+        padding: 0 30px 20px 20px;
+    }
+}
+@media (min-width: 992px) {
+    .timeline > li {
+        min-height: 150px;
+    }
+    .timeline > li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+    .timeline > li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+    .timeline > li .timeline-image h4 {
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 26px;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel {
+        padding: 0 20px 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .timeline > li {
+        min-height: 170px;
+    }
+    .timeline > li .timeline-panel {
+        padding: 0 20px 20px 100px;
+    }
+    .timeline > li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+    .timeline > li .timeline-image h4 {
+        margin-top: 40px;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
+}

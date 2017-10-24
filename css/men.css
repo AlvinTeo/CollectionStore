@@ -1,0 +1,118 @@
+.taskbar {
+    width: 74%;
+    background-color: #f2f2f2;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 7px;
+    text-align: left;
+    border-radius: 5px;
+    color: black;
+    font-size: 13px;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.hihi {
+    width: 80%;
+    background-color: #a6a6a6;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 30px;
+}
+
+.allproducts {
+    width: 250px;
+    border-radius: 20%;
+    border-width: 2px;
+    border-color: black;
+    border: 2px solid #f2f2f2;
+    box-shadow:5px 5px 10px grey;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.productshowing {
+    width: 74%;
+    padding: 20px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.productshowing .orderAdd {
+    display: inline-block;
+    position: relative;    
+}
+
+.insidetaskbar {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.insidetaskbar:hover {
+    text-decoration: none;
+}
+
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 250px;
+    left: 51px;
+    position: absolute;
+    top: 41px;
+    width: 250px;
+    opacity: 0;
+    border-radius:20%;
+    -webkit-transition:opacity 500ms;
+    -moz-transition:opacity 500ms;
+    -o-transition:opacity 500ms;
+    transition:opacity 500ms;
+}
+
+span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: 900;
+   
+}
+
+span.text-content span input{
+    background: none;
+    border: none;
+}
+
+span.text-content h2 {
+    position: absolute;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.productshowing li:hover span.text-content {
+    opacity:1;
+}
+
+.styleproductstitle {
+    font-size: 30px;
+    font-family: 'Bungee Inline', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Satisfy', cursive;
+}
+
+#messageDisplay {
+    text-align: center;
+    border-radius: 20px;
+    background-color:#4dff4d;
+    color:white;
+    width: 370px;
+}

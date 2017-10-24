@@ -1,0 +1,220 @@
+/*article {
+    margin-left:150px;
+}*/
+
+#centerbox {
+    border-radius: 15px;
+    background-color: white;
+    width: 100%;
+    padding: 25px;
+    border: 2px solid black;
+    box-shadow:5px 5px 10px grey;
+    height: 380px;
+}
+
+#id1 {
+    text-align:right;
+    padding-right: 25px;
+    font-size:25px;
+    font-family: 'Bungee Inline', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+.id2{
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+}
+.id3 {
+    font-size:16px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+#editprofile {
+    height:30px;
+    width:150px;
+    font-size:14px;
+    border-radius:6px;
+    color:black;
+    background-color:white;
+    border-color:black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    transition:0.3s;
+}
+
+#editprofile:hover {
+    color:green;
+    background-color:white;
+    border-color:green;
+    transition:0.3s;
+}
+
+#orderview {
+    height:30px;
+    width:150px;
+    font-size:14px;
+    border-radius:6px;
+    color:black;
+    background-color:white;
+    border-color:black;
+    transition:0.3s;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+}
+
+#orderview:hover {
+    color:green;
+    background-color:white;
+    border-color:green;
+    transition:0.3s;
+}
+
+#deleteaccount {
+    height:30px;
+    width:150px;
+    font-size:14px;
+    border-radius:6px;
+    color:black;
+    background-color:white;
+    border-color:black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    transition:0.3s;
+}
+
+#deleteaccount:hover {
+    color:red;
+    background-color:white;
+    border-color:red;
+    transition:0.3s;
+}
+
+#userview {
+    height:30px;
+    width:150px;
+    font-size:14px;
+    border-radius:6px;
+    color:black;
+    background-color:white;
+    border-color:black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    transition:0.3s;
+}
+
+#userview:hover {
+    color:green;
+    background-color:white;
+    border-color:green;
+    transition:0.3s;
+}
+
+#uservieworder {
+    height:30px;
+    width:150px;
+    font-size:14px;
+    border-radius:6px;
+    color:black;
+    background-color:white;
+    border-color:black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    transition:0.3s;
+}
+
+#uservieworder:hover {
+    color:green;
+    background-color:white;
+    border-color:green;
+    transition:0.3s;
+}
+
+#aboutus {
+    height:30px;
+    width:150px;
+    font-size:14px;
+    border-radius:6px;
+    color:white;
+    background-color:black;
+    border-color:black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    transition:0.3s;
+}
+
+#aboutus:hover {
+    color:red;
+    background-color:white;
+    border-color:red;
+    transition:0.3s;
+}
+
+.comebesideme {
+    display:inherit;
+}
+
+#section1 {
+    display: inline;
+}
+
+#how1 {
+    width: 30%;
+    float: left;
+}
+
+#profilepic {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+#how2 {
+    width: 70%;
+    float: right;
+}
+
+.buttoncss {
+    height:30px;
+    width:100px;
+    font-size:14px;
+    border-radius:6px;
+    color:black;
+    background-color:white;
+    border-color:black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    transition:0.3s;
+}
+
+.buttoncss:hover {
+    color:green;
+    background-color:white;
+    border-color:green;
+    transition:0.3s;
+}
+
+.buttoncss2 {
+    height:30px;
+    width:100px;
+    font-size:14px;
+    border-radius:6px;
+    color:white;
+    padding: 5px;
+    background-color:black;
+    border-color:black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    transition:0.3s;
+}
+
+.buttoncss2:hover {
+    color:green;
+    background-color:white;
+    border-color:green;
+    transition:0.3s;
+}
+
+#file {
+    visibility: hidden;
+    display: none;
+}
